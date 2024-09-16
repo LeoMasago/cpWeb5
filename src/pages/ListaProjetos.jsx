@@ -5,7 +5,7 @@ import data from "../data/projetos.json"
 export default function ListaProjetos(){
     return(
         <>
-        <div className="flex justify-center">
+        <div className="text-center text-3xl font-bold">
             <h1>Lista dos projetos</h1>
         </div>
         <CardContainer>

@@ -9,14 +9,6 @@ import PageNotFound from './pages/PageNotFound.jsx';
 import ListaProjetos from './pages/ListaProjetos.jsx';
 import DetalheProjeto from './pages/DetalheProjeto.jsx';
 
-{/* Deve ter as rotas:
-  home
-  filmes
-  Detalhes do Filme
-  Lista de gêneros
-  Filmes por gênero
-  Page Not Found
-  */}
 
 const router = createBrowserRouter([
   {

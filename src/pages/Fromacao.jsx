@@ -1,7 +1,9 @@
+import ConteudoFormacao from "../components/ConteudoFormacao";
+
 export default function Formacao(){
     return(
         <>
-        <h1>Detalhes sobre a minha formação</h1>
+        <ConteudoFormacao/>
         </>
     )
 }
