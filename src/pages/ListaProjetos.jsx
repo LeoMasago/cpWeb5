@@ -1,10 +1,20 @@
+import CardContainer from "../components/CardContainer"
+import ProjectCard from "../components/ProjectCard"
+import data from "../data/projetos.json"
+
 export default function ListaProjetos(){
     return(
         <>
-        <h1>Lista dos projetos</h1>
-        {/* Exibe a lista de todos os filmes disponíveis categorizados por gênero.
-        Cada filme na lista é mostrado com uma imagem, 
-        título e um link para a página de detalhes do filme.*/}
+        <div className="flex justify-center">
+            <h1>Lista dos projetos</h1>
+        </div>
+        <CardContainer>
+        {
+            data.map((project) => (
+                <ProjectCard key={project.id} {...project}/>
+            ))
+        }
+        </CardContainer>
         </>
     )
 }

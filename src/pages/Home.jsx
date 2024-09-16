@@ -1,12 +1,17 @@
 import CardContainer from "../components/CardContainer";
+import ProjectCard from "../components/ProjectCard";
 import projetos from "../data/projetos.json";
 
 export default function Home(){
     return(
         <>
-            <h1> Home Page</h1>
-            <p>Meu nome é Léo</p>
-            <CardContainer/>
+            <CardContainer>
+            {projetos.map(project =>
+                <ProjectCard key={project.id} {...project}/>
+            )
+            }
+            </CardContainer>
+
         </>
     )
 }

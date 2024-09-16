@@ -9,7 +9,7 @@ export default function Header() {
                 </div>
                 <nav>
                     <ul className="flex gap-5">
-                        <li><NavLink to="/home">Home</NavLink></li>
+                        <li><NavLink to="/">Home</NavLink></li>
                         <li><NavLink to="/projetos">Projetos</NavLink></li>
                         <li><NavLink to="/formacao">Formação</NavLink></li>
                     </ul>
