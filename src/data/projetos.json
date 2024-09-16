@@ -2,20 +2,22 @@
     {
         "id": 1,
         "titulo": "Titulo do projeto",
-        "descricao":" Descrição do projeto",
-        "img":"img.jpg",
-        "github":"https://www.google.com"
+        "descricao": " Descrição do projeto",
+        "img": "forrest_gump.jpg",
+        "github": "https://www.google.com"
     },
     {
         "id": 2,
         "titulo": "Titulo do projeto",
-        "descricao":" Descrição do projeto",
-        "img":"img.jpg"
+        "descricao": " Descrição do projeto",
+        "img": "img.jpg",
+        "github": "https://www.google.com"
     },
     {
         "id": 3,
         "titulo": "Titulo do projeto",
-        "descricao":" Descrição do projeto",
-        "img":"img.jpg"
+        "descricao": " Descrição do projeto",
+        "img": "img.jpg",
+        "github": "https://www.google.com"
     }
 ]
