@@ -4,7 +4,6 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'; /* neces
 import App from './App.jsx';
 import './index.css';
 import Home from './pages/Home.jsx';
-import MoviesByGenrePage from './pages/MoviesByGenrePage.jsx';
 import Formacao from './pages/Fromacao.jsx';
 import PageNotFound from './pages/PageNotFound.jsx';
 import ListaProjetos from './pages/ListaProjetos.jsx';
@@ -28,7 +27,6 @@ const router = createBrowserRouter([
       { path: "/formacao", element: <Formacao /> },
       { path: "/projetos", element: <ListaProjetos /> },
       { path: "/projetos/:id", element: <DetalheProjeto /> },
-      { path: "/genre/:id", element: <MoviesByGenrePage /> },
       { path: "*", element: <PageNotFound /> }
     ]
   }
