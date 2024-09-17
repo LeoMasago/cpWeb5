@@ -3,7 +3,9 @@ import ConteudoFormacao from "../components/ConteudoFormacao";
 export default function Formacao(){
     return(
         <>
-        <ConteudoFormacao/>
+        <section className="flex items-center justify-center">
+            <ConteudoFormacao/>
+        </section>
         </>
     )
 }

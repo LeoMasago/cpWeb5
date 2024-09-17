@@ -10,14 +10,14 @@
         "id": 2,
         "titulo": "Titulo do projeto",
         "descricao": " Descrição do projeto",
-        "img": "img.jpg",
+        "img": "fight_club.jpg",
         "github": "https://www.google.com"
     },
     {
         "id": 3,
         "titulo": "Titulo do projeto",
         "descricao": " Descrição do projeto",
-        "img": "img.jpg",
+        "img": "godfather.jpg",
         "github": "https://www.google.com"
     }
 ]

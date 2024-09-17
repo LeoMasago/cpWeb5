@@ -2,7 +2,7 @@ export default function Footer() {
     return ( 
         <>
         <footer class="bg-gray-800 w-full">
-            <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+            <div class="w-full mx-auto max-w-screen-xl p-4 flex items-center justify-between">
             <span class="text-sm text-gray-400">© 2024 Copyright</span>
 
             <ul class="flex flex-wrap gap-3 items-center mt-3 text-gray-400 mt-0">
