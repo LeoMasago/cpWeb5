@@ -12,6 +12,9 @@ export default function DetalheProjeto() {
             <div className="font-bold text-center mt-10 text-3xl">
                 <h1>{project.titulo}</h1>
             </div>
+            <div className="">
+                <img src={project.img}/>
+            </div>
             <div className="text-xl m-5">
                 <h2>{project.descricao}</h2>
             </div>

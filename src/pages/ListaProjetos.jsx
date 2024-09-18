@@ -15,20 +15,6 @@ export default function ListaProjetos() {
                     ))
                 }
             </CardContainer>
-            <CardContainer>
-                {
-                    data.map((project) => (
-                        <ProjectCard key={project.id} {...project} />
-                    ))
-                }
-            </CardContainer>
-            <CardContainer>
-                {
-                    data.map((project) => (
-                        <ProjectCard key={project.id} {...project} />
-                    ))
-                }
-            </CardContainer>
         </>
     )
 }
