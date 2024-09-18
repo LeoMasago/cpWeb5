@@ -8,9 +8,10 @@ export default function Home(){
         <>
         <section className="flex items-center justify-center gap-3 md:gap-[100px]">
             <ConteudoHome/>
-            <img className="opacity-25 h-[300px] w-[200px] md:h-[50%] md:w-[33%]" src="programador.png" alt=""/>
+            <img className="opacity-85 dark:opacity-25 h-[300px] w-[200px] md:h-[50%] md:w-[33%]" src="programador.png" alt=""/>
         </section>
         <section className="h-[300px]"></section>
+        
             <CardContainer titulo="Projetos">
             {projetos.map(project =>
                 <ProjectCard key={project.id} {...project}/>

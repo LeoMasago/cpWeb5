@@ -1,23 +1,30 @@
 [
     {
         "id": 1,
-        "titulo": "Titulo do projeto",
+        "titulo": "Ecotrend",
         "descricao": " Descrição do projeto",
-        "img": "forrest_gump.jpg",
+        "img": "ecotrend.png",
         "github": "https://www.google.com"
     },
     {
         "id": 2,
-        "titulo": "Titulo do projeto",
+        "titulo": "BlueBacter",
         "descricao": " Descrição do projeto",
-        "img": "fight_club.jpg",
+        "img": "bluebacter.png",
         "github": "https://www.google.com"
     },
     {
         "id": 3,
-        "titulo": "Titulo do projeto",
+        "titulo": "HowlGames",
         "descricao": " Descrição do projeto",
-        "img": "godfather.jpg",
+        "img": "howlgames.png",
+        "github": "https://www.google.com"
+    },
+    {
+        "id": 4,
+        "titulo": "Vinheria",
+        "descricao": " Descrição do projeto",
+        "img": "vinheria.png",
         "github": "https://www.google.com"
     }
 ]
