@@ -2,29 +2,36 @@
     {
         "id": 1,
         "titulo": "Ecotrend",
-        "descricao": " Descrição do projeto",
+        "descricao": "O projeto consiste na criação da Eco Trend, um site de E-commerce que tem como seu foco a venda de produtos sustentáveis. Na Eco Trend, acreditamos que o cuidado com o corpo e com o planeta andam de mãos dadas. Somos apaixonados por produtos naturais, sustentáveis e de alta qualidade, que respeitam o meio ambiente e promovem um estilo de vida mais saudável. Nossa missão é conectar você à natureza, oferecendo uma linha completa de produtos naturais cuidadosamente selecionados para trazer o melhor que a terra tem a oferecer. Desde cosméticos orgânicos até alimentos saudáveis e suplementos naturais, cada item é escolhido com carinho para que você possa fazer escolhas conscientes para o seu bem-estar.",
         "img": "ecotrend.png",
-        "github": "https://www.google.com"
+        "github": "https://github.com/LeoMasago/cp4Front"
     },
     {
         "id": 2,
         "titulo": "BlueBacter",
-        "descricao": " Descrição do projeto",
+        "descricao": "BlueBacter é um site de notícias onde os usuários podem confiar para procurar e adquirir conhecimentos sobre a poluição nos oceanos. Com isso, otimizando seu tempo e poupando de espalhar fake news.",
         "img": "bluebacter.png",
-        "github": "https://www.google.com"
+        "github": "https://github.com/LeoMasago/site-gs"
     },
     {
         "id": 3,
         "titulo": "HowlGames",
-        "descricao": " Descrição do projeto",
+        "descricao": "Uma página em HTML utilizando JS e CSS para estilizar e criar minigames. Site de minigames com tema escuro, afim de entreter o público com minigames antigos como space-invaders, snake-game, jogo da velha, brekout entre outros.",
         "img": "howlgames.png",
-        "github": "https://www.google.com"
+        "github": "https://github.com/LeoMasago/Howl-Games"
     },
     {
         "id": 4,
         "titulo": "Vinheria",
-        "descricao": " Descrição do projeto",
+        "descricao": "Este projeto teve como objetivo a criação de uma pagina em HTML, CSS e JavaScript para a Vinheria Agnelo. Um site para venda de vinhos.",
         "img": "vinheria.png",
-        "github": "https://www.google.com"
+        "github": "https://github.com/LeoMasago/vinheria-web-cp"
+    },
+    {
+        "id": 5,
+        "titulo": "Portfólio",
+        "descricao": "Projeto desenvolvido com React afim de criar um portfólio.",
+        "img": "portfólio.png",
+        "github": "https://github.com/LeoMasago/cpWeb5"
     }
 ]
