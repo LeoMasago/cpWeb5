@@ -10,7 +10,10 @@ export default {
     extend: {
       colors:{
         card: '#fff5ff',
-        cardDark:'#200e38'
+        cardDark:'#200e38',
+        fundo: '#131319',
+        header:'#130f15',
+        listHeader:'#130f15'
       }
     },
   },

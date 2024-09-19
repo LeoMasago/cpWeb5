@@ -1,7 +1,7 @@
 export default function Footer() {
     return ( 
         <>
-        <footer class="transition duration-300 bg-violet-100 dark:bg-gray-800 w-full">
+        <footer class="transition duration-300 bg-violet-100 dark:bg-header w-full">
             <div class="w-full mx-auto max-w-screen-xl p-4 flex items-center justify-between">
             <span class="text-sm font-bold dark:text-gray-400">© 2024 Copyright</span>
 
