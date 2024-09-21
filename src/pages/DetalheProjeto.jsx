@@ -8,14 +8,16 @@ export default function DetalheProjeto() {
     const project = data.find((project) => project.id == id)
     return (
         <>
-        <div className="flex flex-col">
+        <div className="flex flex-col items-center">
             <div className="font-bold text-center mt-10 text-3xl">
                 <h1>{project.titulo}</h1>
             </div>
-            <div className="">
-                <img src={project.img}/>
+            <div className="mt-10 mb-10">
+            <a href={project.github} target="_blank">
+                <img src={`/${project.img}`}/>
+            </a>
             </div>
-            <div className="text-xl m-5">
+            <div className="text-xl m-5 font-mono font-semibold">
                 <h2>{project.descricao}</h2>
             </div>
             <div className="w-10">
