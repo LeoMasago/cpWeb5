@@ -1,7 +1,7 @@
 export default function ConteudoFormacao() {
     return (
         <>
-            <div className="text-center text-md md:text-3xl md:w-[900px] font-bold mt-8">
+            <div className="text-center text-md md:text-3xl md:w-[900px] font-bold mt-8 w-full">
                 <div className="mb-10">
                     <h1>Minha História</h1>
                 </div>
